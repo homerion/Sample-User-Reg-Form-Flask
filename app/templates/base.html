@@ -1,0 +1,85 @@
+{%extends 'bootstrap/base.html' %}
+
+{%block title%}
+  Shopping
+{%endblock%}
+
+
+{%block navbar%}
+<div class="container">
+<div class="row" id="top_div">
+  <div class="col-md-12 center">
+    <h2 id="not_copyright">
+      "AMAZON" :)
+    </h2>
+  </div>
+</div>
+</div>
+{%endblock%}
+
+{%block content%}
+{%block app_content%}
+
+
+ {%endblock%}
+ <div class="row">
+  <div class="col-md-12 text-center">
+    <h5 class="amazon">
+ &#8213;&#8213;&#8213;&#8213;&#8213;&#8213;&#8213;
+New to Amazon?
+ &#8213;&#8213;&#8213;&#8213;&#8213;&#8213;&#8213;
+</h5>
+  </div>
+  <!-- end new to amazon column -->
+</div>
+<!-- end new to amazon row -->
+<div class="row">
+  <div class="col-md-4 col-md-offset-4">
+    <a href={{url_for("register")}} class="btn btn-primary col-md-12" id="create_account">Create your Amazon account</a>
+  </div>
+  <!-- end create account column -->
+</div>
+<!-- end create account row -->
+
+
+<footer class="amazon">
+  <div class="col-md-4 col-md-offset-4">
+    <div class="row">
+      <div class="col-md-4 center">
+        <a href="#">
+        Conditions of Use
+      </a>
+      </div>
+      <!-- end first footer col -->
+      <div class="col-md-4 center">
+        <a href="#">
+        Privacy Notice
+      </a>
+      </div>
+      <!-- end second  footer col -->
+      <div class="col-md-4 center">
+        <a href="#">
+        Help
+      </a>
+
+      </div>
+      <!-- end third footer col -->
+    </div>
+    <!-- end first row -->
+    <div class="row">
+      <div class="col-md-12 center">
+        &copy; 1996-2018, Amazon.com, Inc. or its affiliates
+      </div>
+      <!-- end of footer second row col -->
+    </div>
+    <!-- end of footer second row -->
+  </div>
+  <!-- end of entire column footer -->
+</footer>
+{%endblock%}
+
+{%block styles%}
+  {{ super() }}
+  <!-- grabs all the block stylings from bootstrap (it's a jinja thing) -->
+  <link rel="stylesheet" href="../static/main.css">
+{%endblock%}

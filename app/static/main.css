@@ -1,0 +1,110 @@
+
+
+.center {
+  display: block;
+  margin: 4px auto;
+  text-align: center;
+
+}
+footer{
+  background-color: #343a40;
+  color: #555;
+  padding: 25px;
+  margin-top: 30px;
+  font-size: 1.2vw;
+}
+/* .card{
+  margin: 25px;
+  padding: 30px;
+  box-shadow: 0px 0px 5px 0px grey;
+} */
+#create_account{
+  background-color: rgb(231, 233, 236);
+  border-color: rgb(141, 144, 150);
+  color: black;
+}
+
+.card-subtitle{
+  font-style: italic;
+  padding-bottom: 15px;
+}
+footer.amazon{
+  background-color: white;
+  border: rgba(105,105,105,.1);
+  border-top-style: solid;
+font-size: 11px;
+}
+body.amazon{
+  font-family: Arial,sans-serif;
+}
+h2.amazon{
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 1.2;
+}
+h5.amazon{
+  color: #767676;
+  font-size: 12px;
+
+
+}
+label.email{
+  font-weight: 700;
+  padding-left: 2px;
+}
+
+.extra-margin{
+  margin: 30px 0px;
+}
+.pic_text{
+  padding-top: 35px;
+}
+
+
+figcaption{
+  text-align: center;
+}
+#submit{
+  color: #111;
+  background-color: #f0c14b;
+  border-color: rgb(132, 106, 41);
+}
+
+#submit:hover{
+  border-color: #846a29;
+background-color: #f0c14b;
+color: black;
+}
+
+.form-control{
+  border-radius: 4px;
+}
+.amazon-link{
+  font-size: 13px;
+
+}
+input{
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #ced4da;
+  padding: 7px;
+;
+}
+form{
+  border-style: solid;
+  border-radius: 3px;
+  border-color: #ddd;
+  border-width: 1px;
+  padding-left: 26px;
+  padding-right: 26px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  margin-bottom: 22px;
+
+}
+#not_copyright{
+  color: #f0c14b;
+  margin-bottom: 10px;
+  margin-top: 6px;
+
+}
